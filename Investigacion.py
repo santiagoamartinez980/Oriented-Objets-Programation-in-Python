@@ -10,7 +10,7 @@ class Investigacion (Libros):
         return self._facultad
     
 #setters
-    def setTipo(self, facultad):
+    def setFacultas(self, facultad):
         self._facultad = facultad
 
     def calcularDescuento(self):
